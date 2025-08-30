@@ -19,9 +19,20 @@ The analysis includes:
 - **Correlation Heatmap:** Identifying linear relationships among key features.  
 
 **Key Insights:**  
-- Higher churn observed among customers aged **41–50** and those with **mid-range balances**.  
-- **Geography** plays a role, with churn rates varying across countries.  
-- Inactive members are significantly more likely to churn.  
+
+- **Churn Rate**: Around X% of customers in the dataset have churned, showing that retention is a critical issue.  
+- **Key Drivers of Churn**:  
+  - Customers with **low account balance** are significantly more likely to churn.  
+  - **Low credit scores** correlate strongly with higher churn risk.  
+  - Customers with **fewer products** and **inactive accounts** are at greater risk of leaving.  
+  - **Tenure** plays a role — newer customers are more likely to churn compared to long-standing ones.  
+- **Demographic Trends**:  
+  - Churn rates vary across **age groups**, with middle-aged customers showing higher churn tendencies.  
+  - **Geography** impacts churn: customers in some regions are more likely to leave than others.  
+- **Model Findings (Random Forest)**:  
+  - The tuned Random Forest model achieved good predictive accuracy and identified **Balance, Credit Score, Age, and Tenure** as the most important predictors.  
+- **Business Implication**: Focusing on **customer engagement for new clients**, improving **product bundling strategies**, and targeting **financial health improvements** (like balance-building programs) may help reduce churn.
+
 
 ## 🧪 Statistical & Feature Engineering  
 - **Chi-square tests** confirm associations between categorical variables (e.g., tenure group, activity status) and churn.  
