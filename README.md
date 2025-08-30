@@ -20,7 +20,7 @@ The analysis includes:
 
 **Key Insights:**  
 
-- **Churn Rate**: Around X% of customers in the dataset have churned, showing that retention is a critical issue.  
+- **Churn Rate**: Around 20.4% of customers in the dataset have churned, showing that retention is a critical issue.  
 - **Key Drivers of Churn**:  
   - Customers with **low account balance** are significantly more likely to churn.  
   - **Low credit scores** correlate strongly with higher churn risk.  
